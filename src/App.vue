@@ -1,7 +1,8 @@
 <template>
-  <Navbar :logo="logo_src" :alt="app_name"/>
-  <router-view/>
-  <Footer />
+    <Navbar :logo="logo_src" :alt="app_name"/>
+    <router-view/>
+    <div id="separator" />
+    <Footer />
 </template>
 
 
@@ -34,7 +35,7 @@
 
   .main-container {
     margin: 50px;
-    min-height: 250px;
+    height: 100vh;
   }
 
   h1 {
@@ -42,5 +43,14 @@
     font-size: 42px;
     margin-bottom: 30px;
     color: #222;
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  #separator {
+    padding-top: 80px;
   }
 </style>

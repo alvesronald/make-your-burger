@@ -36,7 +36,7 @@
         "type": "Veggie burger"
       }
     ],
-    "extras": [
+    "options": [
       {
         "id": 1,
         "type": "Bacon"
